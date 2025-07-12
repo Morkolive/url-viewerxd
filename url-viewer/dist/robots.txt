@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /privacy
+
+Sitemap: https://url-viewer.app/sitemap.xml
+
+# URL Viewer - Website Preview Tool
+# Privacy Policy: https://url-viewer.app/privacy

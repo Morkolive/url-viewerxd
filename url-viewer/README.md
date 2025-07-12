@@ -1,135 +1,98 @@
-# Scout Vite Template
+# URL Viewer
 
-This is a [Vite](https://vite.dev) project bootstrapped with React + TypeScript and configured with TailwindCSS v4 and ShadCN UI.
+**Instant Website Preview Tool**
 
-## Getting Started
+URL Viewer is a modern, mobile-friendly web application that allows users to preview any website instantly using iframe technology. Perfect for quick website checks, research, and safe browsing.
 
-First, run the development server:
+## 🌟 Features
+
+- **Instant Preview**: Enter any URL and view it immediately in an embedded iframe
+- **Mobile Responsive**: Fully optimized for mobile devices and tablets
+- **Multi-language**: Supports Turkish and English with automatic language persistence
+- **Privacy Focused**: No data collection, URLs are not stored on servers
+- **Clean Interface**: Modern, accessible UI built with React and TailwindCSS
+- **Error Handling**: Smart URL validation and error messages
+- **PWA Ready**: Can be installed as a Progressive Web App
+
+## 🚀 How to Use
+
+1. Enter a website URL (e.g., `google.com`, `github.com`) 
+2. Click "View" or press Enter
+3. The website will load below in a mobile-friendly format
+4. Use the language selector to switch between Turkish and English
+
+## 🛡️ Privacy & Security
+
+- URLs are processed only in your browser
+- No personal data collection
+- Comprehensive privacy policy included
+- Play Store compliant security measures
+- HTTPS encryption for all connections
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19 + TypeScript
+- **Styling**: TailwindCSS V4 + ShadCN UI
+- **Build Tool**: Vite 6
+- **Package Manager**: Bun
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+
+## 📱 PWA Support
+
+URL Viewer can be installed as a Progressive Web App on mobile devices:
+
+1. Open the app in your mobile browser
+2. Look for "Add to Home Screen" option
+3. Install and use like a native app
+
+## 🌍 Multi-language Support
+
+Currently supported languages:
+- 🇹🇷 Turkish (Türkçe)
+- 🇬🇧 English
+
+Language preference is automatically saved and restored.
+
+## 🔧 Development
 
 ```bash
+# Install dependencies
+bun install
+
+# Start development server
 bun dev
+
+# Build for production
+bun build
+
+# Preview production build
+bun preview
+
+# Lint code
+bun lint
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+## 📄 Legal
 
-You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+- [Privacy Policy](/privacy) - Comprehensive privacy policy for Play Store compliance
+- Terms of Service available within the app
+- GDPR compliant data handling
 
-## Project Configuration
+## 🤝 Contributing
 
-### Package Management
+Contributions are welcome! Please read our contributing guidelines and submit pull requests for any improvements.
 
-This project uses [Bun](https://bun.sh/) as the package manager:
+## 📞 Support
 
-- Install dependencies: `bun add <package-name>`
-- Run scripts: `bun <script-name>`
-- Manage dev dependencies: `bun add -d <package-name>`
+For questions or support:
+- Email: support@urlviewer.app
+- Privacy concerns: privacy@urlviewer.app
 
-### Theme Customization
+## 📝 License
 
-The project uses Tailwind CSS V4 with a theme defined in:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- `src/index.css` - For CSS variables including colors in OKLCH format and custom theming
-- Tailwind V4 uses the new `@theme` directive for configuration
+---
 
-### ShadCN UI Components
-
-This project uses [ShadCN UI](https://ui.shadcn.com) for styled components. The components are incorporated directly into the codebase (not as dependencies), making them fully customizable. All components have been installed:
-
-- accordion
-- alert-dialog
-- alert
-- aspect-ratio
-- avatar
-- badge
-- breadcrumb
-- button
-- calendar
-- card
-- carousel
-- chart
-- checkbox
-- collapsible
-- command
-- context-menu
-- dialog
-- drawer
-- dropdown-menu
-- form
-- hover-card
-- input-otp
-- input
-- label
-- menubar
-- navigation-menu
-- pagination
-- popover
-- progress
-- radio-group
-- scroll-area
-- select
-- separator
-- sheet
-- skeleton
-- slider
-- sonner
-- switch
-- table
-- tabs
-- textarea
-- toast
-- toggle-group
-- toggle
-
-### Icon Library
-
-[Lucide React](https://lucide.dev/) is the preferred icon library for this project, as specified in components.json. Always use Lucide icons to maintain consistency:
-
-```tsx
-import { ArrowRight } from "lucide-react";
-
-// Use in components
-<Button>
-  <span>Click me</span>
-  <ArrowRight />
-</Button>;
-```
-
-### Font Configuration
-
-This project uses Google Fonts with:
-
-- Inter (sans-serif)
-- Playfair Display (serif)
-
-The font is imported via Google Fonts CDN in `src/index.css` and configured in the Tailwind theme:
-
-```css
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-
-@theme inline {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
-}
-```
-
-To change or update fonts:
-
-1. Update the Google Fonts import in `src/index.css`
-2. Modify the `--font-sans` variable in the `@theme` directive
-
-## Build and Deploy
-
-Build the project:
-
-```bash
-bun run build
-```
-
-Preview the production build:
-
-```bash
-bun run preview
-```
-
-The built files will be in the `dist` directory, ready for deployment to any static hosting service.
+**URL Viewer © 2025 - All rights reserved**

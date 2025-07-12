@@ -67,8 +67,8 @@ const translations: Translations = {
     en: "The website will be displayed below in mobile-friendly format"
   },
   footer: {
-    tr: "Made with ❤️ using React + TypeScript + TailwindCSS",
-    en: "Made with ❤️ using React + TypeScript + TailwindCSS"
+    tr: "URL Viewer - 2025",
+    en: "URL Viewer - 2025"
   },
   errorEmpty: {
     tr: "Lütfen bir URL girin",

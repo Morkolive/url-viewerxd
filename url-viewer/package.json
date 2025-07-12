@@ -1,7 +1,10 @@
 {
-  "name": "vite-template",
+  "name": "url-viewer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "URL Viewer - Preview any website instantly in mobile-friendly iframe format. Support for Turkish and English languages.",
+  "author": "URL Viewer Team",
+  "keywords": ["url", "preview", "iframe", "website", "viewer", "mobile", "web"],
   "type": "module",
   "scripts": {
     "dev": "vite",
